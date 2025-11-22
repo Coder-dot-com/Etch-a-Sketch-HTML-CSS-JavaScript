@@ -82,7 +82,7 @@ function changeColor () {
 
 
 function addColorInClass(e) {
-    if (rainbowButton.classList.contains("rainbowOn")) { //checks if rainbow toggled on//
+    if (rainbowButton.classList.contains("rainbow-on")) { //checks if rainbow toggled on//
         e.target.style.backgroundColor = randomHexGen()
 
     } else {e.target.style.backgroundColor = colorToAdd ;
